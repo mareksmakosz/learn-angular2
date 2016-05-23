@@ -14,7 +14,7 @@ If you want to bind to particular event, you can use the new [Event syntax](/eve
 To create a custom event, we can use the new `@Output` decorator. Take the following component:
 
 ```javascript
-import {Component} from 'angular2/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'user-profile',
@@ -28,7 +28,7 @@ export class PersonInfo {
 Let's import `Output` and `EventEmitter` and create our new event
 
 ```javascript
-import {Component, Output, EventEmitter} from 'angular2/core';
+import {Component, Output, EventEmitter} from '@angular/core';
 
 @Component({
   selector: 'user-profile',
